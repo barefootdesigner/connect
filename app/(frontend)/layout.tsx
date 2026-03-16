@@ -19,11 +19,12 @@ export default function FrontendLayout({
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Check if already authenticated
-    const auth = localStorage.getItem("portal_authenticated");
-    if (auth === "true") {
-      setIsAuthenticated(true);
-    }
+    try {
+      const auth = localStorage.getItem("portal_authenticated");
+      if (auth === "true") {
+        setIsAuthenticated(true);
+      }
+    } catch {}
     setIsLoading(false);
   }, []);
 
@@ -32,7 +33,7 @@ export default function FrontendLayout({
     if (password === "istep2024") {
       setIsAuthenticated(true);
       setError(false);
-      localStorage.setItem("portal_authenticated", "true");
+      try { localStorage.setItem("portal_authenticated", "true"); } catch {}
     } else {
       setError(true);
       setPassword("");
