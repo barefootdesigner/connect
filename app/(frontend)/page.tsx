@@ -10,7 +10,6 @@ import {
   Heart,
   GraduationCap,
   Gift,
-  FolderOpen,
   Briefcase,
 } from "lucide-react";
 import { SearchBar } from "@/components/search/search-bar";
@@ -57,13 +56,6 @@ const quickLinks = [
     icon: Gift,
     href: "/benefits",
     image: "/images/benefits.webp",
-  },
-  {
-    title: "HR Library",
-    description: "HR documents and resources",
-    icon: FolderOpen,
-    href: "/hr-library",
-    image: "/images/hr-library.webp",
   },
   {
     title: "Vacancies",
