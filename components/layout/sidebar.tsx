@@ -11,9 +11,7 @@ import {
   Heart,
   GraduationCap,
   Gift,
-  FolderOpen,
   Briefcase,
-  MessageCircle,
   X,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -106,19 +104,6 @@ export function Sidebar({ isOpen = true, onClose }: SidebarProps) {
             })}
           </div>
         </nav>
-
-        {/* iCare Button at Bottom */}
-        <div className="p-4 border-t border-primary-600/30">
-          <button
-            className="w-full flex items-center gap-3 px-4 py-3 rounded-lg bg-white/10 hover:bg-white/20 text-white transition-all"
-            onClick={() => {
-              alert("iCare chat integration coming soon!");
-            }}
-          >
-            <MessageCircle className="h-5 w-5 flex-shrink-0" />
-            <span className="text-sm font-medium">iCare</span>
-          </button>
-        </div>
       </aside>
     </>
   );
