@@ -23,7 +23,7 @@ const navItems = [
   { href: "/wellbeing", label: "Wellbeing", icon: Heart, color: "terracotta" },
   { href: "/training", label: "Training", icon: GraduationCap, color: "sage" },
   { href: "/benefits", label: "Benefits", icon: Gift, color: "terracotta" },
-  { href: "/hr-library", label: "HR Library", icon: FolderOpen, color: "earth" },
+  // { href: "/hr-library", label: "HR Library", icon: FolderOpen, color: "earth" },
   { href: "/vacancies", label: "Vacancies", icon: Briefcase, color: "sage" },
 ];
 

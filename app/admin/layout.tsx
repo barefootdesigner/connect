@@ -26,7 +26,7 @@ const navItems = [
   { href: '/admin/training', label: 'Training', icon: GraduationCap },
   { href: '/admin/benefits', label: 'Benefits', icon: Gift },
   { href: '/admin/wellbeing-hub', label: 'Wellbeing Hub', icon: Heart },
-  { href: '/admin/hr-library', label: 'HR Library', icon: FolderOpen },
+  // { href: '/admin/hr-library', label: 'HR Library', icon: FolderOpen },
   { href: '/admin/vacancies', label: 'Vacancies', icon: Briefcase },
   { href: '/admin/icare-companion', label: 'iCare Companion', icon: MessageCircle },
 ];

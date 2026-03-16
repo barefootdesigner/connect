@@ -26,7 +26,7 @@ const navItems = [
   { href: "/wellbeing", label: "Wellbeing", icon: Heart },
   { href: "/training", label: "Training", icon: GraduationCap },
   { href: "/benefits", label: "Benefits", icon: Gift },
-  { href: "/hr-library", label: "HR Library", icon: FolderOpen },
+  // { href: "/hr-library", label: "HR Library", icon: FolderOpen },
   { href: "/vacancies", label: "Vacancies", icon: Briefcase },
 ];
 
